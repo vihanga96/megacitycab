@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    background:linear-gradient(135deg, #172a74, #21a9af);
+    background-color:#184e8e;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:'Source Sans Pro', sans-serif;
+}
+
+.wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entrance_form{
+    background: #FFFFFF;
+    padding: 25px;
+    border-radius: 30px;
+    width: 300px;
+}
+
+.entrance_form .title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    color: #21a9af;
+}
+
+.form_wrap{
+    margin-top: 35px;
+}
+
+.form_wrap .input_wrap{
+    margin-bottom: 15px;
+}
+
+.form_wrap .input_wrap:last-child{
+    margin-bottom: 0;
+}
+
+.form_wrap .input_wrap label{
+    display: block;
+    margin-bottom: 3px;
+    color: #21a9af;
+}
+
+.form_wrap  input[type="text"]{
+    width: 100%;
+    border-radius: 30px;
+    border: 1px solid #21a9af;
+    padding: 10px;
+    outline: none;
+}
+.form_wrap  input[type="tel"]{
+    width: 100%;
+    border-radius: 30px;
+    border: 1px solid #21a9af;
+    padding: 10px;
+    outline: none;
+}
+.form_wrap  input[type="email"]{
+    width: 100%;
+    border-radius: 30px;
+    border: 1px solid #21a9af;
+    padding: 10px;
+    outline: none;
+}
+.form_wrap  input[type="password"]{
+    width: 100%;
+    border-radius: 30px;
+    border: 1px solid #21a9af;
+    padding: 10px;
+    outline: none;
+}
+
+.form_wrap  input[type="text"]:focus{
+    border-color: #21a9af;
+}
+.form_wrap  input[type="tel"]:focus{
+    border-color: #21a9af;
+}
+.form_wrap  input[type="email"]:focus{
+    border-color: #21a9af;
+}
+.form_wrap  input[type="password"]:focus{
+    border-color: #21a9af;
+}
+
+.form_wrap .input_grp{
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-button,  .action-button:not(.disabled):active {
+    border:1px solid #288386;
+    border-radius:40px;
+    color: #ffffff;
+    box-shadow:none;
+    text-shadow:none;
+    padding:.3rem .8rem;
+    background: #21a9af;
+    transition:background-color 0.25s;
+    outline:none;
+}
+
+.action-button:hover {
+    color: #ffffff;
+}
